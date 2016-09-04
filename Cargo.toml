@@ -1,0 +1,11 @@
+[package]
+name = "gdt"
+version = "0.1.0"
+authors = ["nathanfaucett <nathanfaucett@gmail.com>"]
+
+keywords = ["hardware", "gdt", "global", "descriptor", "table"]
+description = "hardware specific global descriptor table"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/nathanfaucett/rs-gdt.git"
+homepage = "https://github.com/nathanfaucett/rs-gdt"
