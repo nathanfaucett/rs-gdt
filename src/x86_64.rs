@@ -26,6 +26,7 @@ pub struct GdtEntry {
 }
 
 impl GdtEntry {
+    #[inline]
     pub fn set_base(&mut self, base: usize) {
         self.basel = base as u16;
         self.basem = (base >> 16) as u8;
